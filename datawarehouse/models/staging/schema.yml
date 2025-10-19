@@ -1,0 +1,18 @@
+
+version: 2
+
+sources:
+  - name: dbsalesaovivo_k7lx
+    schema: public 
+    description: "A starter dbt model"
+    tables: 
+      - name: commodities
+        description: "Tabela com dados historicos de commodities"
+        columns:
+          - name: Date
+            description: "data de observacao"
+          - name: Close
+            description: "Data de fechamento"
+          - name: simbolo
+            description: "Simbolo"
+
